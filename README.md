@@ -2,12 +2,7 @@
 CLI that makes it easier to work with github. Powered by [commander](https://www.npmjs.com/package/commander) and [octokit](https://www.npmjs.com/package/octokit).
 
 ## Usage
-Install this package globally with
-```
-npm install -g @holistic-web/github-tools
-```
-
-or use it directly with npx
+Use this package directly with npx:
 ```
 npx @holistic-web/github-tools list-repos --org holistic-web
 ```
