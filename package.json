@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": false,
   "bin": {
-    "dx-tools": "bin/github-tools"
+    "github-tools": "bin/github-tools"
   },
   "directories": {
     "src": "src"

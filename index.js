@@ -8,7 +8,8 @@ Object.keys(commands).forEach((command) => {
   program.addCommand(commands[command]());
 });
 
+program.parse(process.argv);
+
 module.exports = async () => {
   program.parse(process.argv);
 };
-program.parse(process.argv);
