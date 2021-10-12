@@ -1,6 +1,6 @@
 {
   "name": "@holistic-web/github-tools",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "CLI that makes it easier to work with github",
   "private": false,
   "main": "cli.js",
