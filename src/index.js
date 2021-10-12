@@ -1,6 +1,6 @@
 const { program } = require('commander');
-const packageFile = require('./package.json');
-const commands = require('./src/commands');
+const packageFile = require('../package.json');
+const commands = require('./commands');
 
 program.version(packageFile.version);
 

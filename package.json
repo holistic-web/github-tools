@@ -1,11 +1,11 @@
 {
   "name": "@holistic-web/github-tools",
   "version": "0.0.10",
-  "description": "",
-  "main": "index.js",
+  "description": "CLI that makes it easier to work with github",
   "private": false,
+  "main": "cli.js",
   "bin": {
-    "github-tools": "bin/github-tools"
+    "github-tools": "cli.js"
   },
   "directories": {
     "src": "src"
