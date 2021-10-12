@@ -1,0 +1,11 @@
+const { program } = require('commander');
+const packageFile = require('../package.json');
+const commands = require('./commands');
+
+program.version(packageFile.version);
+
+Object.keys(commands).forEach((command) => {
+  program.addCommand(commands[command]());
+});
+
+program.parse(process.argv);
